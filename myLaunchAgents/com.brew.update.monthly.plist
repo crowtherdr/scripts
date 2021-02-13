@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+    <string>com.brew.update.monthly</string>
+  <key>ProgramArguments</key>
+    <array>
+      <string>open</string>
+      <string>-a</string>
+      <string>Terminal</string>
+      <string>/Users/crowtherdr/scripts/brewupdate.sh</string>
+    </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Minute</key>
+    <integer>00</integer>
+    <key>Hour</key>
+    <integer>11</integer>
+    <key>Day</key>
+    <integer>25</integer>
+  </dict>
+</dict>
+</plist>
